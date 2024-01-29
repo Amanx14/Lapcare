@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.hero>img {
+    width: 100%;
+}
+
+.products {
+    text-align: center;
+}
+
+.product-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-cards{
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+}
+.product-cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.image_box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(194, 198, 200);
+    outline: none;
+    border-radius: 2px;
+}
+
+.brand-box {
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.laptop-box {
+    text-align: left;
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 20px 0 0 30px;
+    color: white
+}
+
+#dell-box {
+    background-image: url("../src/images/lap4.jpg");
+    background-size: cover;
+}
+
+#apple-box {
+    background-image: url("../src/images/lap5.jpg");
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.f-logo {
+    width: 120px;
+}
+
+.footer-box1 {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.footer-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.partner-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.partner-box img {
+    width: 100%;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
