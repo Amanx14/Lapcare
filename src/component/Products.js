@@ -110,7 +110,7 @@ function Products() {
   return (
     <div className='products'>
       <h1 style={{ fontSize: '5vw' }}>Best Sellers</h1>
-      <h2>View All</h2>
+      <h2>view all</h2>
 
       <div className="product-box">
         {
@@ -134,7 +134,7 @@ function Products() {
 
       <div className="dell-laptop">
         <h1 style={{ fontSize: '4vw' }}>Dell Laptops</h1>
-        <h2>View All</h2>
+        <h2>view all</h2>
 
         <div className="dell-prod product-box">
           {
@@ -147,7 +147,7 @@ function Products() {
 
       <div className="apple-laptop">
         <h1 style={{ fontSize: '4vw' }}>Apple Laptops</h1>
-        <h2>View All</h2>
+        <h2>view all</h2>
 
         <div className="apple-prod product-box">
           {

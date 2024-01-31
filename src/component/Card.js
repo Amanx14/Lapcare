@@ -12,8 +12,8 @@ const Card = (props) => {
             <p>{title}</p>
             <p>{seller}</p>
             <p>Price - {price}Rs</p>
-            <button>Add to Cart</button>
         </div>
+        <button id='cart'>Add to Cart</button>
     </div>
   )
 }

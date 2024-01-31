@@ -48,6 +48,9 @@ body {
 }
 
 .product-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 10px;
     border-radius: 10px;
     width: 250px;
@@ -72,7 +75,8 @@ body {
     font-weight: bold;
     color: grey;
 }
-.details button{
+
+#cart{
     margin-top: 10px;
     padding: 5px 10px;
     border: none;
@@ -103,6 +107,11 @@ body {
 #dell-box {
     background-image: url("../src/images/lap4.jpg");
     background-size: cover;
+}
+
+#apple {
+    position: relative;
+    bottom: 7px;
 }
 
 #apple-box {
@@ -161,3 +170,8 @@ footer {
     flex-wrap: wrap;
 }
 
+@media (width : 400px) {
+    #apple {
+        position: static;
+    }
+}

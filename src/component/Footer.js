@@ -13,11 +13,11 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-box2">
-                    <div className="partner-box">
+                    <div className="partner-box" id='apple'>
                         <img src="https://media.idownloadblog.com/wp-content/uploads/2018/07/Apple-logo-black-and-white.png" alt="" />
                     </div>
 
-                    <div className="partner-box">
+                    <div className="partner-box" id='dell'>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/450px-Dell_Logo.svg.png?20160807135325" alt="" />
                     </div>
                 </div>
